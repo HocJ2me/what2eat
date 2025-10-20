@@ -8,10 +8,10 @@ const online = useOnline()
 
 <template>
   <div>
-    <!-- ClientOnly 确保只在客户端渲染 -->
+    <!-- ClientOnly đảm bảo chỉ render ở client -->
     <ClientOnly fallback-tag="div" fallback="">
       <Suspense>
-        <!-- 默认 slot，单根节点 -->
+        <!-- Slot mặc định, single root node -->
         <template #default>
           <div>
             <Eat v-if="online" />
@@ -22,7 +22,7 @@ const online = useOnline()
           </div>
         </template>
 
-        <!-- fallback slot -->
+        <!-- Slot fallback -->
         <template #fallback>
           <div class="grid h-screen italic place-items-center">
             <span class="animate-pulse"><Loading /></span>

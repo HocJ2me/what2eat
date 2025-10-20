@@ -902,7 +902,7 @@ const vietnameseRecipes: Recipe[] = [
   }
 ]
 
-// 获取所有分类
+// Lấy tất cả các danh mục
 function getAllCategories(recipes: Recipe[]): string[] {
   const categories = new Set<string>()
   recipes?.forEach((r) => {

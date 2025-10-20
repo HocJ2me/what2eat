@@ -27,7 +27,7 @@ export default defineNuxtConfig({
         { name: 'description', content: appDescription },
         { name: 'author', content: 'Lê Chí Tuyền hocj2me' },
         { name: 'keywords', content: 'what2eat, hôm nay ăn gì, món ăn Việt Nam, công cụ quyết định, ẩm thực Việt' },
-        // 颜色与 PWA 支持
+        // Màu sắc và hỗ trợ PWA
         { name: 'mobile-web-app-capable', content: 'yes' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#ffffff' },

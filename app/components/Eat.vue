@@ -75,7 +75,7 @@ function createFloatingText(text = '') {
   setTimeout(() => temp.remove(), 1600)
 }
 
-// ✅ 组件卸载时安全清理
+// ✅ Dọn dẹp an toàn khi component bị hủy
 onUnmounted(() => {
   if (randomTimer)
     clearTimeout(randomTimer)
@@ -114,7 +114,7 @@ onUnmounted(() => {
 </template>
 
 <style>
-/* 动画定义 */
+/* Định nghĩa animation */
 @keyframes shake {
   0% {
     transform: translateX(5px);

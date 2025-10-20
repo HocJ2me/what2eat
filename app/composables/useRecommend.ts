@@ -1,44 +1,44 @@
-// 简易算法推荐 目前暂未使用
+// Thuật toán đề xuất đơn giản - hiện tại chưa sử dụng
 
 import type { Recipe } from '~/types'
 
 const ruleMap = {
   time: {
     morning: {
-      label: '早',
-      keywords: ['粥', '蛋', '包', '豆浆', '面包', '早餐'],
+      label: 'Sáng',
+      keywords: ['cháo', 'trứng', 'bánh', 'sữa', 'bánh mì', 'sáng'],
     },
     noon: {
-      label: '午',
-      keywords: ['饭', '面', '炒', '鸡', '鱼'],
+      label: 'Trưa',
+      keywords: ['cơm', 'mì', 'xào', 'gà', 'cá'],
     },
     night: {
-      label: '晚',
-      keywords: ['火锅', '汤', '面', '烧', '炒'],
+      label: 'Tối',
+      keywords: ['lẩu', 'canh', 'mì', 'nướng', 'xào'],
     },
   },
   weather: {
     hot: {
-      label: '热',
-      keywords: ['凉', '冰', '沙拉', '瓜'],
+      label: 'Nóng',
+      keywords: ['mát', 'đá', 'salad', 'dưa'],
     },
     cold: {
-      label: '冷',
-      keywords: ['汤', '火锅', '炖', '煲'],
+      label: 'Lạnh',
+      keywords: ['canh', 'lẩu', 'hầm', 'nồi'],
     },
   },
   category: {
-    sichuan: {
-      label: '川菜',
-      keywords: ['辣', '麻', '火锅', '水煮'],
+    vietnamese: {
+      label: 'Món Việt',
+      keywords: ['phở', 'bún', 'bánh', 'chả'],
     },
-    cantonese: {
-      label: '粤菜',
-      keywords: ['蒸', '煲', '虾', '烧腊'],
+    seafood: {
+      label: 'Hải sản',
+      keywords: ['tôm', 'cá', 'cua', 'mực'],
     },
     home: {
-      label: '家常',
-      keywords: ['炒', '蛋', '豆腐', '茄子'],
+      label: 'Gia đình',
+      keywords: ['xào', 'trứng', 'đậu', 'cà'],
     },
   },
 } as const

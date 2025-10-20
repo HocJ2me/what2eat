@@ -1,4 +1,4 @@
-// 定义菜谱的类型接口
+// Định nghĩa interface cho công thức nấu ăn
 export interface Ingredient {
   name: string
   quantity: number | null
