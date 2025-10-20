@@ -1,70 +1,92 @@
-# whatToEat
+# What2Eat - Hôm Nay Ăn Gì?
 
-> 今天吃什么？的决策工具，帮助你快速选择合适的菜谱。
+> Công cụ quyết định "Hôm nay ăn gì?" giúp bạn nhanh chóng lựa chọn món ăn phù hợp.
 
 <img src="./public/og-image.png" alt="License">
 
-## 项目介绍
+## Giới thiệu dự án
 
-whatToEat 是一个基于 Nuxt 构建的应用，旨在解决日常饮食选择的困扰。通过提供丰富的菜谱数据，帮助用户随机选择或筛选适合的菜品，轻松解决"今天吃什么"的难题。
+What2Eat là một ứng dụng được xây dựng trên nền tảng Nuxt, nhằm giải quyết khó khăn trong việc lựa chọn món ăn hàng ngày. Thông qua việc cung cấp dữ liệu món ăn Việt Nam phong phú, giúp người dùng có thể lựa chọn ngẫu nhiên hoặc lọc các món ăn phù hợp, dễ dàng giải quyết câu hỏi "Hôm nay ăn gì?".
 
-## 快速开始
+## Bắt đầu nhanh
 
-### 在线体验
+### Trải nghiệm trực tuyến
 
-直接访问 [体验](https://eat.ryanuo.cc/)
+Truy cập trực tiếp [Trải nghiệm](https://what2eat.hocj2me.com/)
 
-### 本地运行
+### Chạy local
 
-1. 克隆仓库
+1. Clone repository
 
 ```bash
-git clone https://github.com/ryanuo/whatToEat.git
-cd whatToEat
+git clone https://github.com/hocj2me/what2eat.git
+cd what2eat
 ```
 
-2. 安装依赖
+2. Cài đặt dependencies
 
 ```bash
 pnpm install
 ```
 
-3. 启动开发服务器
+3. Khởi động development server
 
 ```bash
 pnpm dev
 ```
 
-4. 在浏览器中访问 `http://localhost:3000`
+4. Truy cập `http://localhost:3000` trên trình duyệt
 
-## 构建部署
+## Build và Deploy
 
-### 构建生产版本
+### Build production
 
 ```bash
 pnpm build
 ```
 
-### 预览构建结果
+### Preview build
 
 ```bash
 pnpm preview
 ```
 
-### 部署选项
+### Tùy chọn deploy
 
-[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ryanuo/whatToEat)
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ryanuo/whatToEat)
+[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hocj2me/what2eat)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hocj2me/what2eat)
 
-## 数据来源
+## Nguồn dữ liệu
 
-菜谱数据来源于远程 JSON 接口，通过 `server/api/recipes.ts` 进行获取和处理。
+Dữ liệu món ăn được cung cấp từ danh sách món ăn Việt Nam truyền thống, được xử lý thông qua `server/api/recipes.ts`.
 
-## 参考
+## Tính năng
 
-- [菜谱](https://github.com/Anduin2017/HowToCook)
-- [mcp-cook](https://github.com/worryzyy/HowToCook-mcp)
+- 🍜 **30+ món ăn Việt Nam**: Từ phở bò đến bánh xèo, đầy đủ các món ăn truyền thống
+- 🎲 **Lựa chọn ngẫu nhiên**: Giúp bạn quyết định nhanh chóng
+- 📱 **Responsive Design**: Hoạt động tốt trên mọi thiết bị
+- ⚡ **PWA Support**: Có thể cài đặt như ứng dụng di động
+- 🌟 **UI/UX hiện đại**: Giao diện đẹp mắt và dễ sử dụng
 
-## 许可证
+## Công nghệ sử dụng
 
-本项目基于 [MIT 许可证](LICENSE) 开源。
+- **Frontend**: Nuxt 3, Vue 3, TypeScript
+- **Styling**: UnoCSS
+- **PWA**: Vite PWA
+- **Deployment**: Netlify/Vercel
+
+## Đóng góp
+
+Mọi đóng góp đều được chào đón! Hãy tạo issue hoặc pull request để cải thiện dự án.
+
+## License
+
+Dự án này được phát hành dưới [MIT License](LICENSE).
+
+## Tác giả
+
+**Lê Chí Tuyền** - [hocj2me](https://github.com/hocj2me)
+
+---
+
+⭐ Nếu dự án này hữu ích, hãy cho một star nhé!

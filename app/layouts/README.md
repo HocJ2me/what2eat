@@ -1,8 +1,8 @@
 ## Layouts
 
-Vue components in this dir are used as layouts.
+Các component Vue trong thư mục này được sử dụng làm layouts.
 
-By default, `default.vue` will be used unless an alternative is specified in the route meta.
+Theo mặc định, `default.vue` sẽ được sử dụng trừ khi có layout khác được chỉ định trong route meta.
 
 ```vue
 <script setup lang="ts">
@@ -12,4 +12,4 @@ definePageMeta({
 </script>
 ```
 
-Learn more on https://nuxt.com/docs/guide/directory-structure/layouts
+Tìm hiểu thêm tại https://nuxt.com/docs/guide/directory-structure/layouts

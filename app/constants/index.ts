@@ -1,2 +1,2 @@
-export const appName = '今天吃神马？'
-export const appDescription = '一个帮你快速决定“今天吃什么”的有趣工具 🍱'
+export const appName = 'Hôm Nay Ăn Gì?'
+export const appDescription = 'Công cụ giúp bạn quyết định "Hôm nay ăn gì?" với 30+ món ăn Việt Nam truyền thống 🍜'

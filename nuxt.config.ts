@@ -25,8 +25,8 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'description', content: appDescription },
-        { name: 'author', content: 'Ryanuo' },
-        { name: 'keywords', content: 'whatToEat, 吃什么, 菜谱, 决策工具, AI 推荐' },
+        { name: 'author', content: 'Lê Chí Tuyền hocj2me' },
+        { name: 'keywords', content: 'what2eat, hôm nay ăn gì, món ăn Việt Nam, công cụ quyết định, ẩm thực Việt' },
         // 颜色与 PWA 支持
         { name: 'mobile-web-app-capable', content: 'yes' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
@@ -36,13 +36,13 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: appName },
         { property: 'og:description', content: appDescription },
-        { property: 'og:image', content: 'https://eat.ryanuo.cc/og-image.png' },
-        { property: 'og:url', content: 'https://eat.ryanuo.cc' },
+        { property: 'og:image', content: 'https://what2eat.hocj2me.com/og-image.png' },
+        { property: 'og:url', content: 'https://what2eat.hocj2me.com' },
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: appName },
         { name: 'twitter:description', content: appDescription },
-        { name: 'twitter:image', content: 'https://eat.ryanuo.cc/og-image.png' },
+        { name: 'twitter:image', content: 'https://what2eat.hocj2me.com/og-image.png' },
       ],
     },
   },
