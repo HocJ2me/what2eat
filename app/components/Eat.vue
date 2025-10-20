@@ -99,14 +99,14 @@ onUnmounted(() => {
           class="text-[clamp(2rem,5vw,3rem)] text-gray-800 font-normal mb-6 whitespace-nowrap text-ellipsis overflow-hidden"
           :class="{ 'animate-shake': shakeTitle }"
         >
-          <span class="today">今天</span>
-          <span class="eat">吃</span>
+          <span class="today">Hôm nay</span>
+          <span class="eat">ăn</span>
           <FoodItem :current-food="currentFood" />
-          <span class="punctuation">？</span>
+          <span class="punctuation">?</span>
         </h1>
 
         <button id="start" class="outline-none cursor-pointer" @click="togglePlay">
-          <FancyButton :text="isPlaying ? '停止' : '开始'" />
+          <FancyButton :text="isPlaying ? 'Dừng' : 'Bắt đầu'" />
         </button>
       </div>
     </div>

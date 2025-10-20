@@ -17,7 +17,7 @@ const online = useOnline()
             <Eat v-if="online" />
 
             <div v-else class="text-gray-80">
-              You're offline
+              Bạn đang offline
             </div>
           </div>
         </template>
