@@ -2,7 +2,6 @@
 
 > Công cụ quyết định "Hôm nay ăn gì?" giúp bạn nhanh chóng lựa chọn món ăn phù hợp.
 
-<img src="./public/og-image.png" alt="License">
 
 ## Giới thiệu dự án
 
